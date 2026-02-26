@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<body style="background: url('/static/project.png') no-repeat center center/cover;">
+<section class="projects reveal">
+  <h2 style="margin-bottom:30px;">My Projects</h2>
+
+  <div class="highlights">
+    <div class="card">
+      <h4>Customer Segmentation (K-Means)</h4>
+      <p>Built a machine learning model to segment customers into meaningful groups for business decision-making.</p>
+      <p><strong>Tools:</strong> Python, Pandas, Scikit-learn, Matplotlib</p>
+
+      <a href="https://github.com/pato-engr/Customer-Segmentation-kmean/blob/main/Customer_Segmentation_KMeans.ipynb" class="btn btn-primary rounded-pill">
+      <i class="fa-solid fa-up-right-from-square"></i> View Project
+    </a>
+
+    </div>
+
+    <div class="card">
+      <h4>Sales Performance Dashboards</h4>
+      <p>Interactive business dashboards with KPIs, regional and product analysis.</p>
+      <p><strong>Tools:</strong> Power BI, Tableau, Excel</p>
+    </div>
+
+    <!-- <div class="card">
+      <h4>COVID-19 Data Analysis</h4>
+      <p>Time-series analysis and visualization of global COVID-19 trends.</p>
+      <p><strong>Tools:</strong> Python, R, Pandas, Matplotlib</p>
+    </div> -->
+
+    <div class="card">
+      <h4>Movie Recommendation System</h4>
+      <p>Content-based recommendation engine deployed as a web application.</p>
+      <p>
+        <strong>Goal:</strong>
+        To develop a user-friendly web application that provides personalized movie recommendations based on user preferences using content-based filtering techniques.
+      </p>
+      <p><strong>Tools:</strong> Python, Scikit-learn, Streamlit</p>
+
+      <a href="https://movie-recommender-syste-neg3vywtnv8cp7urysa9ef.streamlit.app/" class="btn btn-primary rounded-pill">
+      <i class="fa-solid fa-up-right-from-square"></i> View Project
+    </a>
+    </div>
+
+    <div class="card">
+      <h4>Library Management System</h4>
+      <p>Desktop application with authentication, CRUD operations, and MySQL integration.</p>
+      <p><strong>Tools:</strong> Python, MySQL, Tkinter</p>
+    </div>
+
+    <!-- <div class="card">
+      <h4>Full-Stack Car Price Predictor Web App</h4>
+      <p>Developed a full-stack application for predicting car prices using machine learning and a responsive frontend.</p>
+      <p><strong>Tools:</strong> Python, Scikit-learn, Flask, HTML/CSS</p>
+    </div> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+   
+<div class="card shadow-lg border-0 rounded-4 p-3">
+  
+  <div class="card-body">
+    
+    <h4 class="card-title fw-bold mb-2">
+      <i class="fa-solid fa-car-side text-primary"></i>
+      Full-Stack Car Price Predictor
+    </h4>
+
+    <p class="text-muted">
+      An end-to-end machine learning web application that predicts car prices based on features such as model, year, KMs Driven, fuel type, Seller Type, transmission and Owner.
+    </p>
+    <p>
+      <strong>Goal:</strong>
+      To create a user-friendly web application that allows users to input car details and receive accurate price predictions using a trained machine learning model.
+       <!-- To predict car prices accurately using machine learning to support smarter buying and selling decisions. -->
+    </p>
+    <p>
+      <strong><i class="fa-solid fa-screwdriver-wrench"></i> Tech Stack:</strong><br>
+      <span class="badge bg-dark">Python,</span>
+      <span class="badge bg-primary">Scikit-Learn,</span>
+      <span class="badge bg-success">Flask,</span>
+      <span class="badge bg-info text-dark">Pandas,</span>
+      <span class="badge bg-secondary">NumPy,</span>
+      <span class="badge bg-warning text-dark">HTML/CSS</span>
+    </p>
+
+    <a href="https://mycarproject4-1.onrender.com/" class="btn btn-primary rounded-pill">
+      <i class="fa-solid fa-up-right-from-square"></i> View Project
+    </a>
+
+  </div>
+</div>
+
+  </div>
+</section>
+{% endblock %}
